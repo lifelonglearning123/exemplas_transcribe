@@ -8,7 +8,7 @@ import pandas as pd
 
 
 def main():
-    st.title('Exemplas Transcribe & Summerisation App')
+    st.title('Exemplas Transcribe & Summarisation App')
     st.write("Please upload audio file.")
 
     uploaded_master_file = st.file_uploader("Audio File", key="master", type=['mp3'])
